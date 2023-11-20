@@ -22,7 +22,7 @@ void selection_sort(int *array, size_t size)
 				k = j;
 		}
 
-		if (i != m)
+		if (i != k)
 		{
 			tmp = array[i];
 			array[i] = array[k];
